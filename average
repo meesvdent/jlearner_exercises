@@ -1,0 +1,10 @@
+/** @pre x and y are ingegers */
+int average(int x, int y){
+  int sum = x + y;
+  int av = sum/2;
+  return av;
+}
+void main(){
+	assert average(2, 4) == 3;
+	assert average(-1, 1) == 0;
+}
