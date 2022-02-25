@@ -9,7 +9,18 @@ boolean isSorted(int[] array){
   return true;
 }
 
+int countOccurences(int x, int[] array){
+  for(int i=0; i<array.length; i++){
+    if(array[i] == x){
+      
+  
+
 void main(){
   int[] testArray = {1, 2, 5, 4, 5};
   assert isSorted(testArray) == false;
 }
+
+  
+  
+  
+  
